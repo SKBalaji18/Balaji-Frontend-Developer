@@ -1,0 +1,128 @@
+.one-two-card {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.ttl-container {
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-top: 20px; 
+}
+
+.one-card-container {
+    width: 538px;
+    height: fit-content;
+    padding: 12px 56px;
+    border-radius: 15px;
+    backdrop-filter: blur(15.7px);
+    background: rgba(12, 43, 47, 0.7); 
+    margin-bottom: 4px;
+    color: #B0FAFFB2;
+    margin-top: 5px;
+    border-width: 0cap;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.label {
+    font-weight: normal;
+    padding-right: 10px;
+    width: 150px;
+}
+
+.value {
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.imageDonut {
+    height: 350px;
+    padding-left: 4%;
+    margin-top: 20px;
+}
+
+.header {
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 27px;
+}
+
+.row-cont{
+    display: flex;
+}
+
+.items{
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .ttl-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .one-card-container {
+        width: 90%; 
+        padding: 12px 20px; 
+        margin: 10px 0; 
+    }
+
+    .header {
+        font-size: 24px; 
+    }
+
+    .imageDonut {
+        height: 250px; 
+        padding-left: 0; 
+    }
+
+    .label {
+        width: auto; 
+    }
+
+    .items {
+        flex-direction: column; 
+        align-items: center; 
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        font-size: 20px;
+        color: white; 
+    }
+    
+    .one-card-container {
+        padding: 12px 10px; 
+    }
+
+    .imageDonut {
+        height: 200px; 
+    }
+
+    .list-item {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 8px 0;
+    }
+    
+}

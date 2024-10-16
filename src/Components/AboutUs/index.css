@@ -1,0 +1,161 @@
+.container-c {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 70%;
+    border: 2px solid #B0FAFFB2; 
+    background-color: #0F373C;
+    border-radius: 28px;
+}
+
+
+h1{
+    font-weight: normal;
+}
+h2{
+    font-weight: normal;
+}
+h3{
+    font-weight: normal;
+}
+h4{
+    font-weight: normal;
+}
+
+h5{
+    font-weight: normal;
+}
+
+
+
+.card {
+    background-color: transparent !important;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    text-align: center;
+    width: 250px;
+    border-width: 0cap !important;
+}
+
+.icon {
+    height: 20px; /* Icon size */
+    width: 20px;
+    margin-bottom: 10px;
+}
+
+.header {
+    color: white;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.text {
+    color: #B0FAFFB2;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.whiteButton{
+    background-color: #B0FAFFB2;
+    color: #00161D;
+    border-radius: 5px;
+    border-width: 0px;
+    height: 38px;
+    padding: 3px;
+    font-size: medium;
+    margin-bottom: 12px;
+}
+
+/* Container to center the content */
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    
+  }
+  
+  /* White button style */
+  .whiteButton {
+    background-color: #B0FAFFB2;
+    color: #0F373C;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  
+  .whiteButton:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .text {
+    color: #B0FAFFB2;
+    margin-bottom: 15px;
+  }
+
+.white{
+    font-size: 28px;
+}
+
+.about-container{
+    background-color: #00161D;
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .container-c {
+        width: 100%; /* Full width for mobile */
+        padding: 10px;
+        flex-direction: column; /* Stack the cards vertically */
+        border-radius: 20px;
+    }
+
+    .card {
+        width: 100%; /* Full width for cards on mobile */
+        margin: 10px 0; /* Margin on top and bottom for spacing */
+        padding: 15px;
+        height: auto; /* Adjust height to content */
+    }
+
+    .icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .header {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .whiteButton {
+        width: 80%; 
+        height: 40px;
+        font-size: medium;
+    }
+
+    .center-container h1 {
+        font-size: 24px;
+    }
+
+    .center-container h5 {
+        font-size: 14px;
+        padding: 0 10px; 
+    }
+
+    .cntiner {
+        padding: 10px;
+        height: auto;
+    }
+}
