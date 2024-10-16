@@ -11,15 +11,15 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <div className="logo">MyLogo</div>
+            <div className="logo">EthAi</div>
             <button className="menu-toggle" onClick={toggleMenu}>
                 ☰
             </button>
             <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#sectionHome">Home</a></li>
+                <li><a href="#sectionFeatures">Features</a></li>
+                <li><a href="#sectionAbout">About</a></li>
+                <li><a href="#sectionToken">Tokenomics</a></li>
             </ul>
         </nav>
     );

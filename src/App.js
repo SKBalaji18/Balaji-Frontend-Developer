@@ -7,10 +7,10 @@ import Tokenomics from './Components/Tokenomics';
 function App() {
   return (
     <div className="App">
-      <Home />
-      <Features />
-      <AboutUs />
-      <Tokenomics />
+      <div id='sectionHome'><Home /></div>
+      <div id='sectionFeatures'><Features /></div>
+      <div id='sectionAbout'><AboutUs /></div>
+      <div id='sectionToken'><Tokenomics /></div>
     </div>
   );
 }
